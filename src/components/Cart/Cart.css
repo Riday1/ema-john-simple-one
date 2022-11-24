@@ -1,9 +1,26 @@
 .cart {
-    margin: 100px 20px;
+    margin: 100px 50px;
     position: sticky;
     top: 100px;
 }
 
 .cart-header {
     text-align: center;
+}
+
+.delete-cart {
+    width: 100%;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.review-cart {
+    width: 100%;
+    background: #FF9900;
+    border-radius: 4px;
+    color: white;
+    border: none;
 }

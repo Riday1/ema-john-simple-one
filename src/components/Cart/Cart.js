@@ -6,6 +6,7 @@ import './Cart.css'
 const Cart = (props) => {
     const { cart } = props;
     // console.log(cart)
+    // console.log(cart)
     let total = 0;
     let shipping = 0;
     // console.log(cart);
@@ -28,7 +29,7 @@ const Cart = (props) => {
             <p>Tax : $  {tax}</p>
             <h5>Grand Total : $ {GrandTotal.toFixed(2)} </h5>
 
-            <button  className='delete-cart'>
+            <button className='delete-cart'>
                 <p>Delete Cart</p>
             </button>
             <button className='review-cart'>
